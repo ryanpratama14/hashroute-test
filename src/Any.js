@@ -2,14 +2,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import { useNavigate } from "react-router-dom";
 
-function App() {
+function Any() {
   const navigate = useNavigate();
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>This is App</p>
+        <p>This is Any</p>
         <button
           onClick={() => {
             navigate("/contact");
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default Any;
