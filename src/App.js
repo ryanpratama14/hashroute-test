@@ -31,6 +31,7 @@ function App() {
         >
           Any
         </button>
+        <a href="#/contact">To Contact</a>
       </header>
     </div>
   );
